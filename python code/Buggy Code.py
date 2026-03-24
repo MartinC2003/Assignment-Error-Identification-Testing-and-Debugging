@@ -13,7 +13,18 @@ class Order:
             return "Empty Order"
         return total
 
-    def add_item(self, item_name, quantity, price)
+    """
+    Old Code: 
+        def add_item(self, item_name, quantity, price)
+            self.items.append((item_name, quantity, price))  
+    Error type: Syntax
+    Expected Behavior: add_item is defined successfully and items can be appended to the order
+    Actual Behavior: Python raises SyntaxError: expected ':' and the program refuses to run
+    Fixed Code: 
+        def add_item(self, item_name, quantity, price): 
+            self.items.append((item_name, quantity, price))  
+    """
+    def add_item(self, item_name, quantity, price): # ← colon added at the end of the add_item statement
         self.items.append((item_name, quantity, price))  
 
     def remove_item(self, item_name):
