@@ -10,7 +10,7 @@
 Rebuilding and improving a broken Python program by fixing bugs, and restructuring the code for better through implementing unit and integration tests, documenting our process thorugh the useage of diagrams, code snippets and test output.
 
 ## Trello
-Trello Link https://trello.com/b/Sgi6JnZi/my-trello-board 
+**Trello Link:** https://trello.com/b/Sgi6JnZi/my-trello-board 
 
 ## Documentation 
 

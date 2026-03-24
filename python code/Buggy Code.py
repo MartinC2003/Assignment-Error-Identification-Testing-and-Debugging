@@ -14,12 +14,10 @@ class Order:
         return total
 
     """
+    Error: Missing colon in add_item method caused a SyntaxError.
     Old Code: 
         def add_item(self, item_name, quantity, price)
             self.items.append((item_name, quantity, price))  
-    Error type: Syntax
-    Expected Behavior: add_item is defined successfully and items can be appended to the order
-    Actual Behavior: Python raises SyntaxError: expected ':' and the program refuses to run
     Fixed Code: 
         def add_item(self, item_name, quantity, price): 
             self.items.append((item_name, quantity, price))  
