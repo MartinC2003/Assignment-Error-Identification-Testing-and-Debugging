@@ -46,7 +46,7 @@ SyntaxError: expected ':'“
 - [Thong](https://github.com/giathongnguyen)
 - [Veer]()
 - [Nida]()
-- [Dhanpreet]()
+- [Dhanpreet](https://github.com/Dhanreet/BuggyCode)
 - [Vaidik ]()
 
 
