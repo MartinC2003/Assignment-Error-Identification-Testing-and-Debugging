@@ -39,7 +39,13 @@ SyntaxError: expected ':'“
 ```
 
 ## How to Run 
+**Run Program**
 ```bash 
+python Buggy_Code.py
+```
+**Run Unit Tests**
+```bash 
+python -m unittest test_order.py
 ```
 ## Credits
 - [Martin](https://github.com/MartinC2003)
