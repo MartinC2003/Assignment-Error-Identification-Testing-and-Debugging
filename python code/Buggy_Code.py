@@ -47,8 +47,9 @@ class Order:
                 self.items.remove(item)  
     
     """
-   Error: Incorrect spelling of items attribute caused a RuntimeError
-   & missing closing parenthesis at the end of print statement caused a SyntaxError
+   Error 1: Incorrect spelling of items attribute caused a RuntimeError
+   Error 2: Missing closing parenthesis at the end of print statement caused a SyntaxError
+   Error 3: Missing clause to handle orders with no items can cause a unhandled ExceptionError
   
    Solution 1: 
    Old Code:
@@ -66,6 +67,13 @@ class Order:
        Fixed Code:
            for item in self.items: #<--spelling corrected
                print(f"{item[1]} x {item[0]} @ ${item[2]:.2f}")
+   
+   Solution 3:
+       Old Code:
+        print("Order Summary for", self.customer_name)
+       Fixed Code:
+        if not self.items:
+            print("No items in this order.") # print statement to return when order is empty, instead of the string
 
     """
     def print_summary(self):
